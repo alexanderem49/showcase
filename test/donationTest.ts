@@ -29,4 +29,8 @@ describe("Donation test", async function () {
         const sum = await donation.getDonationSum(signer.address);
         expect(sum).to.be.equal(value);
     })
+
+    it("Should be passed by Github", async () => {
+        expect(2 + 2).to.be.equal(4);
+    })
 });
